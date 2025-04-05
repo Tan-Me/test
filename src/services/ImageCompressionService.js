@@ -7,6 +7,7 @@ class ImageCompressionService {
             if(!this.validateURL(link)){
                 throw new Error(400, "Invalid Url");
             }
+            //qwdxanasx
             const outputPath = "./src/static/image.jpeg";
             const imageBuffer = await this.bufferImageFromUrl(link);
             console.log(imageBuffer);
